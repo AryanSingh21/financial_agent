@@ -9,13 +9,6 @@ from datetime import datetime
 from agents.financial_agent import financial_analysis_agent
 from agents.sentiment_agent import sentiment_analysis_agent
 from agents.market_impact_agent import market_impact_agent
-
-# Initialize the model
-model = GroqModel(
-    'llama-3.3-70b-versatile', 
-    provider=GroqProvider(api_key='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')
-)
-
 # Define output models
 class SentimentAnalysis(BaseModel):
     sentiment_score: float  # -1.0 to 1.0 (negative to positive)

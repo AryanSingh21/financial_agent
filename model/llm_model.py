@@ -7,4 +7,4 @@ model = GroqModel(
 )
 
 # Provided the key here for testing purpose and considering the fact that, the team will be running the code
-# This key will be revoked after few days
+# This key will be automatically disabled after few days

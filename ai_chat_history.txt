@@ -315,3 +315,105 @@ Traceback (most recent call last):
 pydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"final_result","arguments":{"properties":{"sentiment_score":0.85,"confidence":0.9,"key_phrases":["record Q3 earnings","revenue of $2.8 billion","25% year-over-year growth","beating analyst expectations","strong demand for cloud services and AI solutions","continued growth in Q4","expand into new markets","successful cost reduction initiatives","improved operational efficiency"],"overall_sentiment":"positive","reasoning":"The financial news indicates strong positive sentiment with record earningspydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"fpydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjpydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"fpydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"final_result","arguments":{"properties":{"sentiment_score":0.85,"confidence":0.9,"key_phrases":["record Q3 earnings","revenue of $2.8 billion","25% year-over-year growth","beating analyst expectations","strong demand for cloud services and AI solutions","continued growth in Q4","expand into new markets","successful cost reduction initiatives","improved operational efficiency"],"overall_sentiment":"positive","reasoning":"The financial news indicates strong positive sentiment with record earnings, significant revenue growth, and optimistic future projections."}}}\n</tool_call>'}}
 
 
+Financial News Analysis - AI Chat History
+==================================================
+
+Timestamp: 2025-06-21T23:24:17.612871
+
+INPUT NEWS ARTICLE:
+--------------------
+{
+  "article_id": "FIN-003",
+  "headline": "Amazon announces 'transformational' AI venture, but at massive cost",
+  "content": "Amazon (NASDAQ: AMZN) unveiled Project Olympus, a $50 billion investment in AGI de",
+  "published_at": "2024-09-15T09:00:00Z"
+}
+
+ANALYSIS RESULT:
+--------------------
+{
+  "article_id": "FIN-003",
+  "sentiment_analysis": {
+    "sentiment_score": 0.5,
+    "confidence": 0.8,
+    "key_phrases": [
+      "AI venture",
+      "massive cost"
+    ],
+    "overall_sentiment": "neutral",
+    "reasoning": "The article presents a neutral tone, discussing both the potential benefits and drawbacks of Amazon's investment in AGI."
+  },
+  "market_impact": {
+    "impact_score": 0.7,
+    "affected_sectors": [
+      "tech",
+      "AI"
+    ],
+    "potential_stock_movement": "neutral",
+    "time_horizon": "short-term",
+    "key_factors": [
+      "investment size",
+      "industry trends"
+    ],
+    "risk_level": "medium"
+  },
+  "overall_recommendation": "neutral",
+  "confidence_level": 0.8
+}
+
+USAGE STATISTICS:
+--------------------
+Usage(requests=1, request_tokens=858, response_tokens=362, total_tokens=1220)
+
+
+Financial News Analysis - AI Chat History
+==================================================
+
+Timestamp: 2025-06-21T23:28:44.921580
+
+INPUT NEWS ARTICLE:
+--------------------
+{
+  "article_id": "FIN-003",
+  "headline": "Amazon announces 'transformational' AI venture, but at massive cost",
+  "content": "Amazon (NASDAQ: AMZN) unveiled Project Olympus, a $50 billion investment in AGI de",
+  "published_at": "2024-09-15T09:00:00Z"
+}
+
+ANALYSIS RESULT:
+--------------------
+{
+  "article_id": "FIN-003",
+  "sentiment_analysis": {
+    "sentiment_score": 0.5,
+    "confidence": 0.8,
+    "key_phrases": [
+      "transformational AI venture",
+      "massive cost"
+    ],
+    "overall_sentiment": "neutral",
+    "reasoning": "The article discusses a significant investment in AI, which could have both positive and negative impacts on the market."
+  },
+  "market_impact": {
+    "impact_score": 0.7,
+    "affected_sectors": [
+      "tech",
+      "AI"
+    ],
+    "potential_stock_movement": "positive",
+    "time_horizon": "long-term",
+    "key_factors": [
+      "investment size",
+      "AI potential"
+    ],
+    "risk_level": "medium"
+  },
+  "overall_recommendation": "Investors should monitor Amazon's progress with Project Olympus, considering both the potential benefits and risks of this significant investment.",
+  "confidence_level": 0.8
+}
+
+USAGE STATISTICS:
+--------------------
+Usage(requests=1, request_tokens=858, response_tokens=387, total_tokens=1245)
+
+
