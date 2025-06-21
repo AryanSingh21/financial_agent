@@ -1,0 +1,55 @@
+================================================================
+1. System Architecture - Why Multiple Agents?
+
+Architecture Overview
+The system employs a 3-agent architecture with specialized roles:
+
+Financial Analysis Agent (Orchestrator)
+
+Main coordinator and decision maker
+Combines insights from specialist agents
+Provides final recommendations and confidence scores
+
+
+Sentiment Analysis Agent (Specialist)
+
+Dedicated to financial sentiment analysis
+Processes market-relevant language and terminology
+Extracts emotional context and investor sentiment indicators
+
+
+Market Impact Assessment Agent (Specialist)
+
+Focuses exclusively on market impact evaluation
+Analyzes sector effects and stock movement predictions
+Assesses risk levels and time horizons
+
+============================================================================
+2. Design Decisions and Rationale
+
+2.1 Agent Interaction Pattern: Orchestrator + Specialists
+Decision: Use a main orchestrator that calls specialist agents via tools
+Rationale:
+
+Provides central coordination and context management
+Ensures consistent output format and quality
+Allows for complex decision logic combining multiple specialist inputs
+Maintains clear data flow and dependency management
+
+2.2 Data Flow Architecture: Sequential with Context Passing
+Decision: Sentiment analysis feeds into market impact assessment
+Rationale:
+
+Market impact is often influenced by sentiment context
+Sequential processing ensures consistent interpretation
+Allows market impact agent to leverage sentiment insights
+Mirrors real-world financial analysis workflow
+
+2.3 Output Structure: Strongly Typed Pydantic Models
+Decision: Use structured Pydantic models for all outputs
+Rationale:
+
+Ensures consistent, parseable results
+Enables automated validation and error detection
+Facilitates integration with downstream systems
+Provides clear contracts between agents

@@ -1,0 +1,317 @@
+
+Financial News Analysis - AI Chat History
+==================================================
+
+Timestamp: 2025-06-21T15:13:37.442389
+
+INPUT NEWS ARTICLE:
+--------------------
+{
+  "article_id": "FIN-001",
+  "headline": "Tesla crushes Q3 expectations with record profits, but Musk warns of 'turbulent t",
+  "content": "Tesla (NASDAQ: TSLA) reported stunning Q3 results with earnings of $1.05 per share",
+  "published_at": "2024-10-22T16:00:00Z"
+}
+
+ANALYSIS RESULT:
+--------------------
+{
+  "article_id": "FIN-001",
+  "sentiment_analysis": {
+    "sentiment_score": 0.7,
+    "confidence": 0.8,
+    "key_phrases": [
+      "record profits",
+      "turbulent times"
+    ],
+    "overall_sentiment": "positive",
+    "reasoning": "The company's stunning Q3 results and record profits indicate a strong financial performance."
+  },
+  "market_impact": {
+    "impact_score": 0.6,
+    "affected_sectors": [
+      "electric vehicles",
+      "technology"
+    ],
+    "potential_stock_movement": "positive",
+    "time_horizon": "short-term",
+    "key_factors": [
+      "Q3 results",
+      "Musk's warning"
+    ],
+    "risk_level": "moderate"
+  },
+  "overall_recommendation": "Buy",
+  "confidence_level": 0.8
+}
+
+USAGE STATISTICS:
+--------------------
+Usage(requests=1, request_tokens=865, response_tokens=371, total_tokens=1236)
+
+
+Financial News Analysis - AI Chat History
+==================================================
+
+Timestamp: 2025-06-21T15:15:27.192747
+
+INPUT NEWS ARTICLE:
+--------------------
+{
+  "article_id": "news_001",
+  "headline": "TechCorp announces record Q3 earnings with 25% revenue growth",
+  "content": "TechCorp (NASDAQ: TECH) reported exceptional Q3 earnings today, beating analyst expectations by 15%. The company posted revenue of $2.8 billion, up 25% year-over-year, driven by strong demand for its cloud services and AI solutions. CEO John Smith stated that the company expects continued growth in Q4, with plans to expand into new markets. The earnings report also highlighted successful cost reduction initiatives and improved operational efficiency.",
+  "published_at": "2024-10-15T14:30:00Z"
+}
+
+ANALYSIS RESULT:
+--------------------
+{
+  "article_id": "news_001",
+  "sentiment_analysis": {
+    "sentiment_score": 0.7,
+    "confidence": 0.8,
+    "key_phrases": [
+      "record Q3 earnings",
+      "25% revenue growth",
+      "beating analyst expectations"
+    ],
+    "overall_sentiment": "positive",
+    "reasoning": "The article reports positive earnings and revenue growth, indicating a positive sentiment."
+  },
+  "market_impact": {
+    "impact_score": 0.6,
+    "affected_sectors": [
+      "tech",
+      "cloud services",
+      "AI solutions"
+    ],
+    "potential_stock_movement": "upward",
+    "time_horizon": "short-term",
+    "key_factors": [
+      "record Q3 earnings",
+      "25% revenue growth",
+      "expansion into new markets"
+    ],
+    "risk_level": "low"
+  },
+  "overall_recommendation": "buy",
+  "confidence_level": 0.85
+}
+
+USAGE STATISTICS:
+--------------------
+Usage(requests=1, request_tokens=924, response_tokens=513, total_tokens=1437)
+
+Financial News Analysis - AI Chat History
+==================================================
+
+Timestamp: 2025-06-21T15:22:35.174199
+
+INPUT NEWS ARTICLE:
+--------------------
+{
+  "article_id": "FIN-002",
+  "headline": "Small biotech CureGen soars on FDA approval, analysts remain skeptical",
+  "content": "CureGen (NASDAQ: CURE), a small-cap biotech, received FDA approval for its novel c",
+  "published_at": "2024-11-01T14:30:00Z"
+}
+
+ANALYSIS RESULT:
+--------------------
+{
+  "article_id": "FIN-002",
+  "sentiment_analysis": {
+    "sentiment_score": 0.5,
+    "confidence": 0.8,
+    "key_phrases": [
+      "FDA approval",
+      "analysts skeptical"
+    ],
+    "overall_sentiment": "Neutral",
+    "reasoning": "The article reports a positive event (FDA approval) but also mentions skepticism from analysts, indicating a neutral overall sentiment."
+  },
+  "market_impact": {
+    "impact_score": 0.6,
+    "affected_sectors": [
+      "biotech"
+    ],
+    "potential_stock_movement": "Neutral",
+    "time_horizon": "Short-term",
+    "key_factors": [
+      "FDA approval",
+      "analyst skepticism"
+    ],
+    "risk_level": "Medium"
+  },
+  "overall_recommendation": "Hold",
+  "confidence_level": 0.7
+}
+
+USAGE STATISTICS:
+--------------------
+Usage(requests=1, request_tokens=859, response_tokens=367, total_tokens=1226)
+
+
+Financial News Analysis - AI Chat History
+==================================================
+
+Timestamp: 2025-06-21T15:50:28.352487
+
+INPUT NEWS ARTICLE:
+--------------------
+{
+  "article_id": "FIN-003",
+  "headline": "Amazon announces 'transformational' AI venture, but at massive cost",
+  "content": "Amazon (NASDAQ: AMZN) unveiled Project Olympus, a $50 billion investment in AGI de",
+  "published_at": "2024-09-15T09:00:00Z"
+}
+
+ANALYSIS RESULT:
+--------------------
+{
+  "article_id": "FIN-003",
+  "sentiment_analysis": {
+    "sentiment_score": 0.5,
+    "confidence": 0.8,
+    "key_phrases": [
+      "transformational",
+      "massive cost"
+    ],
+    "overall_sentiment": "neutral",
+    "reasoning": "The article presents a significant investment by Amazon, but also mentions a massive cost, indicating a neutral sentiment."
+  },
+  "market_impact": {
+    "impact_score": 0.7,
+    "affected_sectors": [
+      "technology",
+      "artificial intelligence"
+    ],
+    "potential_stock_movement": "positive",
+    "time_horizon": "long-term",
+    "key_factors": [
+      "investment size",
+      "industry trends"
+    ],
+    "risk_level": "medium"
+  },
+  "overall_recommendation": "Investors should monitor Amazon's progress with Project Olympus, considering both potential benefits and risks.",
+  "confidence_level": 0.8
+}
+
+USAGE STATISTICS:
+--------------------
+Usage(requests=1, request_tokens=858, response_tokens=380, total_tokens=1238)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------- Errors -----------------------------
+
+Starting Financial News Analysis...
+==================================================
+Sentiment Analysis Result: sentiment_score=0.92 confidence=0.9 key_phrases=['record Q3 earnings', 'revenue growth', 'beating analyst expectations', 'strong demand for cloud services and AI solutions', 'expand into new markets', 'successful cost reduction initiatives', 'improved operational efficiency'] overall_sentiment='POSITIVE' reasoning="The article highlights TechCorp's strong financial performance with record earnings, exceeding analyst expectations, and significant revenue growth. Positive forward-looking statements from the CEO regarding continued growth and market expansion, along with successful cost reduction and operational efficiency improvements, further reinforce the positive sentiment."
+Sentiment Analysis Result: sentiment_score=0.85 confidence=0.9 key_phrases=['record Q3 earnings', 'revenue growth', 'beat analyst expectations', 'strong demand', 'successful cost reduction', 'continued growth'] overall_sentiment='Positive' reasoning='The article highlights strong financial performance with record earnings and revenue growth, exceeding analyst expectations. Positive forward-looking statements from the CEO and successful cost management further reinforce the positive sentiment.'
+Traceback (most recent call last):
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\models\groq.py", line 225, in _completions_create
+    return await self.client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\groq\resources\chat\completions.py", line 750, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\groq\_base_client.py", line 1716, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\groq\_base_client.py", line 1537, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"final_result","arguments":{"properties":{"sentiment_score":0.85,"confidence":0.9,"key_phrases":["record Q3 earnings","revenue of $2.8 billion","25% year-over-year growth","beating analyst expectations","strong demand for cloud services and AI solutions","continued growth in Q4","expand into new markets","successful cost reduction initiatives","improved operational efficiency"],"overall_sentiment":"positive","reasoning":"The financial news indicates strong positive sentiment with record earnings, significant revenue growth, and optimistic future projections."}}}\n</tool_call>'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\main_f.py", line 159, in <module>
+    analysis_result = run_financial_analysis(sample_news)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\main_f.py", line 146, in run_financial_analysis
+    result = financial_analysis_agent.run_sync(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\agent.py", line 862, in run_sync
+    return get_event_loop().run_until_complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\agent.py", line 476, in run
+    async for _ in agent_run:
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\agent.py", line 1932, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_graph\graph.py", line 809, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_graph\graph.py", line 782, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 428, in run
+    async with self.stream(ctx):
+  File "C:\Users\Aryan singh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 211, in __aexit__
+    await anext(self.gen)
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 442, in stream
+    async for _event in stream:
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 497, in _run_stream
+    async for event in self._events_iterator:
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 475, in _run_stream
+    async for event in self._handle_tool_calls(ctx, tool_calls):
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 527, in _handle_tool_calls
+    async for event in process_function_tools(
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 718, in process_function_tools
+    result = task.result()
+             ^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\tools.py", line 401, in run
+    return await self._run(message, run_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\tools.py", line 422, in _run
+    response_content = await self.function_schema.call(args_dict, ctx)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_function_schema.py", line 53, in call
+    return await function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\main_f.py", line 89, in sentiment_analyzer
+    result = await sentiment_analysis_agent.run(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\agent.py", line 476, in run
+    async for _ in agent_run:
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\agent.py", line 1932, in __anext__
+    next_node = await self._graph_run.__anext__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_graph\graph.py", line 809, in __anext__
+    return await self.next(self._next_node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_graph\graph.py", line 782, in next
+    self._next_node = await node.run(ctx)
+                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 314, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 373, in _make_request
+    model_response = await ctx.deps.model.request(message_history, model_settings, model_request_parameters)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\models\groq.py", line 153, in request
+    response = await self._completions_create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aryan singh\Documents\multi_agent_market\venv\Lib\site-packages\pydantic_ai\models\groq.py", line 248, in _completions_create
+    raise ModelHTTPError(status_code=status_code, model_name=self.model_name, body=e.body) from e
+pydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"final_result","arguments":{"properties":{"sentiment_score":0.85,"confidence":0.9,"key_phrases":["record Q3 earnings","revenue of $2.8 billion","25% year-over-year growth","beating analyst expectations","strong demand for cloud services and AI solutions","continued growth in Q4","expand into new markets","successful cost reduction initiatives","improved operational efficiency"],"overall_sentiment":"positive","reasoning":"The financial news indicates strong positive sentiment with record earningspydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"fpydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjpydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"fpydantic_ai.exceptions.ModelHTTPError: status_code: 400, model_name: deepseek-r1-distill-llama-70b, body: {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool_call>\n{"name":"final_result","arguments":{"properties":{"sentiment_score":0.85,"confidence":0.9,"key_phrases":["record Q3 earnings","revenue of $2.8 billion","25% year-over-year growth","beating analyst expectations","strong demand for cloud services and AI solutions","continued growth in Q4","expand into new markets","successful cost reduction initiatives","improved operational efficiency"],"overall_sentiment":"positive","reasoning":"The financial news indicates strong positive sentiment with record earnings, significant revenue growth, and optimistic future projections."}}}\n</tool_call>'}}
+
+
